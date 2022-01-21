@@ -8,6 +8,7 @@ html{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 3rem;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .section{
@@ -23,19 +24,42 @@ html{
 
 .green{
     background-color: green;
+    color: yellow;
 }
 
 .yellow{
     background-color: yellow;
+    color: green;
 }
 
-.image{
+.product{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.info{
+.menu{
+    position: fixed;
+    top: 1rem;
+    right:1rem;
+}
 
+.menu a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    line-height: 1.5rem;
+}
+
+a:active {
+    background-color: lightgray;
+}
+
+a:hover{
+    box-shadow: 5px 5px 10px black;
 }
