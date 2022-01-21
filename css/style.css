@@ -8,7 +8,6 @@ html{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 3rem;
     text-align: center;
-    scroll-behavior: smooth;
 }
 
 .section{
@@ -56,10 +55,3 @@ html{
     line-height: 1.5rem;
 }
 
-a:active {
-    background-color: lightgray;
-}
-
-a:hover{
-    box-shadow: 5px 5px 10px black;
-}
